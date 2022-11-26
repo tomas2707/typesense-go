@@ -288,6 +288,8 @@ type SearchHighlight struct {
 	// Present only for (non-array) string fields
 	Snippet *string `json:"snippet,omitempty"`
 
+	Value *string `json:"value,omitempty"`
+
 	// Present only for (array) string[] fields
 	Snippets *[]string `json:"snippets,omitempty"`
 }
